@@ -3,17 +3,17 @@
 format longG
 
 % Data for E-Beam 100eV plot
-T100eV_set3 = readmatrix('data/122123_100eV_MV.xlsx', 'Sheet', 'new solution 1st set 100eV', 'Range', 'A1:C15');
-T100eV_set4 = readmatrix('data/122123_100eV_MV.xlsx', 'Sheet', 'new solution 2nd set 100eV', 'Range', 'A1:C10');
+T100eV_set3 = readmatrix('122123_100eV_MV.xlsx', 'Sheet', 'new solution 1st set 100eV', 'Range', 'A1:C15');
+T100eV_set4 = readmatrix('122123_100eV_MV.xlsx', 'Sheet', 'new solution 2nd set 100eV', 'Range', 'A1:C10');
 
-T100eV_set5 = readmatrix('data/121523_100eV.xlsx', 'Sheet', 'Dry 2MOE batch 112023 1st set', 'Range', 'A1:C10');
-T100eV_set6 = readmatrix('data/121523_100eV.xlsx', 'Sheet', 'Dry 2MOE batch 112023 2nd set', 'Range', 'A1:C10');
-T100eV_set7 = readmatrix('data/121523_100eV.xlsx', 'Sheet', 'with optical 1st set 100 eV', 'Range', 'A1:C15');
-T100eV_set8 = readmatrix('data/121523_100eV.xlsx', 'Sheet', 'with optical 2nd set 100 eV', 'Range', 'A1:C11');
-T100eV_set9 = readmatrix('data/121523_100eV.xlsx', 'Sheet', 'without optical 1st set 100 eV', 'Range', 'A1:C15');
-T100eV_set10 = readmatrix('data/121523_100eV.xlsx', 'Sheet', 'without optical 2nd set 100 eV', 'Range', 'A1:C10');
-T100eV_set11 = readmatrix('data/021423_EBL_run.xlsx', 'Sheet', 'Sheet1', 'Range', 'A1:C15');
-T100eV_set12 = readmatrix('data/050423_curvedata.xlsx', 'Sheet', 'Sheet1', 'Range', 'A1:C14');
+T100eV_set5 = readmatrix('121523_100eV.xlsx', 'Sheet', 'Dry 2MOE batch 112023 1st set', 'Range', 'A1:C10');
+T100eV_set6 = readmatrix('121523_100eV.xlsx', 'Sheet', 'Dry 2MOE batch 112023 2nd set', 'Range', 'A1:C10');
+T100eV_set7 = readmatrix('121523_100eV.xlsx', 'Sheet', 'with optical 1st set 100 eV', 'Range', 'A1:C15');
+T100eV_set8 = readmatrix('121523_100eV.xlsx', 'Sheet', 'with optical 2nd set 100 eV', 'Range', 'A1:C11');
+T100eV_set9 = readmatrix('121523_100eV.xlsx', 'Sheet', 'without optical 1st set 100 eV', 'Range', 'A1:C15');
+T100eV_set10 = readmatrix('121523_100eV.xlsx', 'Sheet', 'without optical 2nd set 100 eV', 'Range', 'A1:C10');
+T100eV_set11 = readmatrix('021423_EBL_run.xlsx', 'Sheet', 'Sheet1', 'Range', 'A1:C15');
+T100eV_set12 = readmatrix('050423_curvedata.xlsx', 'Sheet', 'Sheet1', 'Range', 'A1:C14');
 
 
 
