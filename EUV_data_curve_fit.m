@@ -3,7 +3,7 @@
 format longG
 
 % Data for dose curve plots
-T_data = readmatrix('data/EUV.xlsx', 'Sheet', 'Sheet1', 'Range', 'A1:B12');
+T_data = readmatrix('EUV.xlsx', 'Sheet', 'Sheet1', 'Range', 'A1:B12');
 
 % Calculate the fixed vertical offset
 D = min(T_data(:,2));
