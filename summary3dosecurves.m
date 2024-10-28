@@ -3,9 +3,9 @@
 format longG
 
 % Data for dose curve plots
-T_E_gun = readmatrix('data/240724_Dose curve summary.xlsx', 'Sheet', 'In-nitrate E-gun', 'Range', 'A2:C7');
-T_EBL = readmatrix('data/240724_Dose curve summary.xlsx', 'Sheet', 'EBL Indium nitrate', 'Range', 'A2:C16');
-T_SnOxo = readmatrix('data/240724_Dose curve summary.xlsx', 'Sheet', 'SnOxo E-gun ', 'Range', 'A2:C9');
+T_E_gun = readmatrix('240724_Dose curve summary.xlsx', 'Sheet', 'In-nitrate E-gun', 'Range', 'A2:C7');
+T_EBL = readmatrix('240724_Dose curve summary.xlsx', 'Sheet', 'EBL Indium nitrate', 'Range', 'A2:C16');
+T_SnOxo = readmatrix('240724_Dose curve summary.xlsx', 'Sheet', 'SnOxo E-gun ', 'Range', 'A2:C9');
 
 % Normalize thickness and std
 norm_E_gun = T_E_gun(1,2);
